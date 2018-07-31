@@ -1,32 +1,44 @@
 body {
-  background-color: #ffa
+  background-color: #6FC6E9;
+  font-family: "Papyrus", sans-serif;
 }
 h1, h2, h3 {
   text-align: center;
 }
 h1 {
   font-size: 3em;
-  line-height: 2.5em;
-  color: #f99;
+  line-height: 2.25em;
+  color: #EEC066;
   text-shadow: 0.05em 0.05em 0.1em #000;
 }
 h2 {
-  color: #0a0;
+  font-size: 2.75em;
+  color: #A20606;
+  font-family: sans-serif;
+  font-weight: bolder;
+  text-shadow: 0.05em 0.05em 0.1em #000;
 }
 h3 {
-  color: #1F959F
+  color: #097693
 }
 img {
   width: 100%;
   box-shadow: 0.3em 0.3em 0.2em #000;
 }
-li {
+ul {
   font-size: 2.5em;
-  line-height: 1.5em;
+  line-height: 0.5em;
+
 }
 a {
-  color: #f99;
+  color: #EEC066;
   font-style: italic;
+  text-shadow: 0.025em 0.025em 0.1em #000;
+  transition: all 300ms;
+}
+
+a:hover {
+  font-size: 1.1em;
 }
 #offerings {
   margin-left:30%;
